@@ -116,11 +116,10 @@ public class LaboratorySystem {
         menu();
     }
 
-    private void error() {a
+    private void error() {
         System.out.println("No valid actions found. Please Try again");
         menu();
     }
-
     public static void main(String[] args) {
         LaboratorySystem laboratorySystem = new LaboratorySystem();
     }
